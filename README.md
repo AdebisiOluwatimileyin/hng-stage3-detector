@@ -406,9 +406,10 @@ pip install -r requirements.txt
 ### Step 5: Configure Slack Webhook
 
 Edit `config.py`:
-```python
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
-```
+```python`
+import os
+
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 ### Step 6: Install as systemd Service
 
@@ -450,7 +451,9 @@ BASELINE_RECALC_INTERVAL = 60  # 1 minute
 UNBAN_SCHEDULE = [10, 30, 120]
 
 # Slack
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/..."
+import os
+
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 # Dashboard
 DASHBOARD_PORT = 5000
