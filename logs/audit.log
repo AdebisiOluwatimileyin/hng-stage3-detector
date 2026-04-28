@@ -1943,3 +1943,52 @@
 [2026-04-28T15:38:17] BAN | 35.224.172.2 | condition=zscore=5.39 | rate=0.02>0.00 | rate=0.02 | baseline=0.00 | duration=600s
 [2026-04-28T15:38:17] GLOBAL_ANOMALY | condition=global_zscore=5.39 | global_rate=0.02 | rate=0.02 | baseline=0.00
 [2026-04-28T15:48:23] UNBAN | 35.224.172.2 | condition=zscore=5.39 | rate=0.02>0.00 | rate=0.02 | baseline=0.00
+[2026-04-28T17:07:44] ANOMALY_DETECTED | 3.151.241.153 | condition=zscore=2.65 | rate=0.03>0.01 | error_surge | rate=0.03 | baseline=0.00
+[2026-04-28T17:07:44] BAN | 3.151.241.153 | condition=zscore=2.65 | rate=0.03>0.01 | error_surge | rate=0.03 | baseline=0.00 | duration=600s
+[2026-04-28T17:07:44] GLOBAL_ANOMALY | condition=global_rate=0.03 | rate=0.03 | baseline=0.00
+[2026-04-28T17:10:24] GLOBAL_ANOMALY | condition=global_rate=0.03 | rate=0.03 | baseline=0.01
+[2026-04-28T17:13:00] ANOMALY_DETECTED | 82.23.227.116 | condition=rate=0.03>0.03 | rate=0.03 | baseline=0.01
+[2026-04-28T17:13:00] BAN | 82.23.227.116 | condition=rate=0.03>0.03 | rate=0.03 | baseline=0.01 | duration=600s
+[2026-04-28T17:13:00] GLOBAL_ANOMALY | condition=global_rate=0.03 | rate=0.03 | baseline=0.01
+[2026-04-28T17:17:53] UNBAN | 3.151.241.153 | condition=zscore=2.65 | rate=0.03>0.01 | error_surge | rate=0.03 | baseline=0.00
+[2026-04-28T17:23:03] UNBAN | 82.23.227.116 | condition=rate=0.03>0.03 | rate=0.03 | baseline=0.01
+[2026-04-28T17:39:52] ANOMALY_DETECTED | 16.58.56.214 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T17:39:52] BAN | 16.58.56.214 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T17:39:52] GLOBAL_ANOMALY | condition=global_rate=0.02 | rate=0.02 | baseline=0.00
+[2026-04-28T17:40:03] GLOBAL_ANOMALY | condition=global_zscore=4.37 | global_rate=0.03 | rate=0.03 | baseline=0.00
+[2026-04-28T17:40:08] GLOBAL_ANOMALY | condition=global_zscore=6.72 | global_rate=0.05 | rate=0.05 | baseline=0.00
+[2026-04-28T17:40:09] GLOBAL_ANOMALY | condition=global_zscore=9.06 | global_rate=0.07 | rate=0.07 | baseline=0.00
+[2026-04-28T17:41:07] GLOBAL_ANOMALY | condition=global_zscore=3.44 | global_rate=0.05 | rate=0.05 | baseline=0.00
+[2026-04-28T17:49:53] UNBAN | 16.58.56.214 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T18:13:38] ANOMALY_DETECTED | 3.136.156.54 | condition=zscore=3.61 | rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T18:13:38] BAN | 3.136.156.54 | condition=zscore=3.61 | rate=0.02>0.01 | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T18:13:38] GLOBAL_ANOMALY | condition=global_zscore=3.61 | global_rate=0.02 | rate=0.02 | baseline=0.00
+[2026-04-28T18:13:50] GLOBAL_ANOMALY | condition=global_zscore=7.49 | global_rate=0.03 | rate=0.03 | baseline=0.00
+[2026-04-28T18:13:54] GLOBAL_ANOMALY | condition=global_zscore=11.37 | global_rate=0.05 | rate=0.05 | baseline=0.00
+[2026-04-28T18:13:55] GLOBAL_ANOMALY | condition=global_zscore=15.25 | global_rate=0.07 | rate=0.07 | baseline=0.00
+[2026-04-28T18:23:43] UNBAN | 3.136.156.54 | condition=zscore=3.61 | rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T18:37:09] ANOMALY_DETECTED | 147.185.132.171 | condition=rate=0.02>0.01 | error_surge | rate=0.02 | baseline=0.00
+[2026-04-28T18:37:09] BAN | 147.185.132.171 | condition=rate=0.02>0.01 | error_surge | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T18:37:09] GLOBAL_ANOMALY | condition=global_rate=0.02 | rate=0.02 | baseline=0.00
+[2026-04-28T18:37:09] GLOBAL_ANOMALY | condition=global_rate=0.03 | rate=0.03 | baseline=0.00
+[2026-04-28T18:47:13] UNBAN | 147.185.132.171 | condition=rate=0.02>0.01 | error_surge | rate=0.02 | baseline=0.00
+[2026-04-28T19:38:41] ANOMALY_DETECTED | 190.192.135.60 | condition=zscore=5.39 | rate=0.02>0.00 | rate=0.02 | baseline=0.00
+[2026-04-28T19:38:41] BAN | 190.192.135.60 | condition=zscore=5.39 | rate=0.02>0.00 | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T19:38:41] GLOBAL_ANOMALY | condition=global_zscore=10.96 | global_rate=0.03 | rate=0.03 | baseline=0.00
+[2026-04-28T19:48:43] UNBAN | 190.192.135.60 | condition=zscore=5.39 | rate=0.02>0.00 | rate=0.02 | baseline=0.00
+[2026-04-28T20:23:51] ANOMALY_DETECTED | 118.193.33.130 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T20:23:51] BAN | 118.193.33.130 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T20:23:51] GLOBAL_ANOMALY | condition=global_rate=0.02 | rate=0.02 | baseline=0.00
+[2026-04-28T20:23:52] GLOBAL_ANOMALY | condition=global_zscore=4.80 | global_rate=0.03 | rate=0.03 | baseline=0.00
+[2026-04-28T20:23:52] GLOBAL_ANOMALY | condition=global_zscore=7.30 | global_rate=0.05 | rate=0.05 | baseline=0.00
+[2026-04-28T20:23:53] GLOBAL_ANOMALY | condition=global_zscore=9.80 | global_rate=0.07 | rate=0.07 | baseline=0.00
+[2026-04-28T20:23:54] GLOBAL_ANOMALY | condition=global_zscore=12.30 | global_rate=0.08 | rate=0.08 | baseline=0.00
+[2026-04-28T20:23:54] GLOBAL_ANOMALY | condition=global_zscore=14.80 | global_rate=0.10 | rate=0.10 | baseline=0.00
+[2026-04-28T20:33:54] UNBAN | 118.193.33.130 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T20:34:36] ANOMALY_DETECTED | 185.212.170.126 | condition=rate=0.02>0.01 | error_surge | rate=0.02 | baseline=0.00
+[2026-04-28T20:34:37] BAN | 185.212.170.126 | condition=rate=0.02>0.01 | error_surge | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T20:44:44] UNBAN | 185.212.170.126 | condition=rate=0.02>0.01 | error_surge | rate=0.02 | baseline=0.00
+[2026-04-28T21:37:03] ANOMALY_DETECTED | 34.38.201.223 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00
+[2026-04-28T21:37:03] BAN | 34.38.201.223 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00 | duration=600s
+[2026-04-28T21:37:03] GLOBAL_ANOMALY | condition=global_rate=0.02 | rate=0.02 | baseline=0.00
+[2026-04-28T21:47:04] UNBAN | 34.38.201.223 | condition=rate=0.02>0.01 | rate=0.02 | baseline=0.00
